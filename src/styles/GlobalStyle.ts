@@ -75,19 +75,20 @@ html {
     font-size:62.5%;
 } 
 body {
+    display: flex;
+    justify-content: center;
     background: var(--kiwi-color7);
     background: linear-gradient(160deg, var(--kiwi-color8) -30%, var(--kiwi-color6) 100%);
     font-family: var(--kiwi-font-family);
     color: #fff;;
     font-size: var(--kiwi-medium-font-size);
     padding-top:2.5rem;
-    display: flex;
-    justify-content: center;
-    margin-bottom:15rem;
+    min-height: 96.7vh;
 }
 #root {
+    display: flex;
+    flex-direction: column;
     width: 36rem;
-    min-height: 100vh;
   }
 `;
 export default GlobalStyle;

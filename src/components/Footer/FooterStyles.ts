@@ -3,13 +3,13 @@ import styled from "styled-components";
 export const StyledDivFooter = styled.div`
      display: flex;
      color: var(--kiwi-color5);
-     margin-top: calc(var(--kiwi-vertical-gap) * 6);
-     align-items: center;
+     align-items: end;
      justify-content: center;
      font-size: var(--kiwi-small-font-size);
      font-weight: var(--kiwi-light-font-weight);
      width: 100%;
-     height: 2rem;
+     height: 100%;
+     padding: 5rem 0 5rem 0;
 `;
 
 export const StyledALink = styled.a`
@@ -54,7 +54,7 @@ export const StyledALink = styled.a`
      span {
           display: inline-block;
           transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
-          transform: translate(0, 0.19rem);
+          transform: translate(0, 4px);
      }
 
      &:hover span {
