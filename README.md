@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Kiwi Monthly Bills Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Kiwi is a simple way to track monthly bills. Its attractive design and casual tone make for an enjoyable and intuitive user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users can add their monthly bills and mark them as paid throughout the month. At the beginning of each month, the bills can be unmarked to restart the cycle.
 
-## Expanding the ESLint configuration
+Additionally, Kiwi displays a friendly message informing users whether they have a financial balance.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Screenshot
 
-- Configure the top-level `parserOptions` property like this:
+![Kiwi Bills Tracker screenshot](public/imgages/screenshot_kiwi_monthly_bills_tracker.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+## Installation and Usage
+
+1.   Install Dependencies:
+     ```sh
+     npm i
+     ```
+2.   Run Vite:
+
+     ```sh
+     npm run dev
+     ```
+
+3.   Completion:
+     -    You should now be all set to use the project.
+
+## Features
+
+-    **Responsive Design**: Ensures optimal viewing experience across a wide range of devices, from mobile phones to desktop computers.
+
+## Technologies
+
+-    Vite
+-    React
+-    TypeScript
+-    Styled Components
+-    Redux
+-    React-Toastify
+-    Jest
+-    Babel
+-    Font Awesome
+-    ESLint
+-    GitHub Actions (CI/CD pipeline)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+## Credits
+
+Created by Henrique Pochmann.
+
+## Contact
+
+You can reach out to me via [LinkedIn](https://www.linkedin.com/in/henriquepcm/) or henriquepcm@gmail.com.
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+```
