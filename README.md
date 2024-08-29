@@ -1,4 +1,4 @@
-# Kiwi Monthly Bills Tracker
+# Kiwi Monthly Bills Tracker | Web App
 
 ## Description
 
