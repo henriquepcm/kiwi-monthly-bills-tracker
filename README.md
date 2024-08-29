@@ -10,7 +10,7 @@ Additionally, Kiwi displays a friendly message informing users whether they have
 
 ## Screenshot
 
-![Kiwi Bills Tracker screenshot](public/imgages/screenshot_kiwi_monthly_bills_tracker.png)
+![Kiwi Bills Tracker screenshot](public/images/screenshot_kiwi_monthly_bills_tracker.png)
 
 ## Installation and Usage
 
