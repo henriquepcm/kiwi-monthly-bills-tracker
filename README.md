@@ -12,6 +12,11 @@ Additionally, Kiwi displays a friendly message informing users whether they have
 
 ![Kiwi Bills Tracker Screenshot](public/images/screenshot_kiwi_monthly_bills_tracker.png)
 
+## Demo
+
+![Kiwi Bills Tracker Screenshot](public/images/kiwi-bills-tracker-demo.gif)
+[Check out the project](https://kiwibillstracker.netlify.app/)
+
 ## Installation and Usage
 
 1.   Install Dependencies:
