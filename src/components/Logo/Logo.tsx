@@ -3,6 +3,7 @@ export default function Logo() {
           <div>
                <img
                     src="images/kiwi-logo-1x"
+                    alt="Kiwi Monthly Bills Tracker logo"
                     srcSet="
                        images/kiwi-logo-1x.png 1x,
                        images/kiwi-logo-2x.png 2x,
